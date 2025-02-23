@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Steps ascending -->
+  <g class="steps">
+    <path
+      d="M60 140 L60 100 L100 100 L100 120 L140 120 L140 140"
+      fill="none"
+      stroke="#2563eb"
+      stroke-width="8"
+      stroke-linejoin="round"
+    />
+  </g>
+
+  <!-- Spark elements -->
+  <g class="sparks">
+    <path d="M102 98 L112 92" stroke="#f97316" stroke-width="2" fill="none"/>
+    <path d="M102 98 L114 98" stroke="#f97316" stroke-width="2" fill="none"/>
+    <path d="M102 98 L108 88" stroke="#f97316" stroke-width="2" fill="none"/>
+    <path d="M102 98 L100 88" stroke="#f97316" stroke-width="2" fill="none"/>
+    <path d="M102 98 L96 90" stroke="#f97316" stroke-width="2" fill="none"/>
+  </g>
+</svg>

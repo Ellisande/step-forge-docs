@@ -1,36 +1,36 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
+title: Step Forge
+description: An opinionated type safe wrapper for Cucumber JS
 template: splash
 hero:
-  tagline: Congrats on setting up a new Starlight project!
+  tagline: An opinionated type safe wrapper for Cucumber JS
   image:
-    file: ../../assets/houston.webp
+    file: ../../assets/logo.svg
   actions:
-    - text: Example Guide
-      link: /guides/example/
+    - text: Getting Started
+      link: /guides/installing
       icon: right-arrow
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
-      icon: external
+    - text: Read the Step Forge docs
+      link: /docs/reference
+      icon: document
       variant: minimal
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Next steps
+## Unique Features
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
+	<Card title="Type-Safe by Design" icon="seti:typescript">
+		Full type safety from Gherkin statements through dependencies all the way to your step implementation. Build reliable and composable test scenarios with confidence.
 	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
+	<Card title="Smart State Management" icon="puzzle">
+		Distinct immutable state handling for Given, When, and Then sections, ensuring clean separation of concerns, and deterministic dependencies.
 	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
+	<Card title="Modern Development" icon="rocket">
+		Write steps using modern JS/TS features like template strings and arrow functions. Includes flexible parsing for custom Gherkin inputs.
 	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
+	<Card title="Powerful VS Code Integration" icon="setting">
+		Real-time dependency analysis, smart step autocomplete, and intelligent step suggestions that fulfill missing dependencies.
 	</Card>
 </CardGrid>
