@@ -30,9 +30,17 @@ export default defineConfig({
 					],
 				},
 				{
+					label: 'Concepts',
+					autogenerate: { directory: 'concepts' },
+				},
+				{
 					label: 'Reference',
 					autogenerate: { directory: 'reference' },
 				},
+				{
+					label: "VS Code Extension",
+					autogenerate: { directory: 'vscode' },
+				}
 			],
 		}),
 	],
