@@ -40,6 +40,10 @@ export default defineConfig({
 				{
 					label: "VS Code Extension",
 					autogenerate: { directory: 'vscode' },
+				},
+				{
+					label: "Roadmap",
+					autogenerate: { directory: 'roadmap' },
 				}
 			],
 		}),
